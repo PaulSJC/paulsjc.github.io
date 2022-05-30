@@ -140,6 +140,7 @@ function letterTileClicked (event) {
     let wordNum = btn.dataset.wordNum;
 
     if (btn.nodeName != "BUTTON" ||
+        btn.innerText == '-'     ||
           (wordNum != currentWord   &&
               (wordNum != currentWord+1 ||
                currentWord == 4         ||
