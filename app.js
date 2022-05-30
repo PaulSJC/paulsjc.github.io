@@ -8,7 +8,7 @@ let AllWordsDB = new Map();
 let currentDB = NYTWordsDB;
 let firstGuess = "ROATE";
 
-// Get the modal
+// Get the modal element
 let infoBox = document.getElementById("myModal");
 
 let char0 = document.getElementById("first-char").getBoundingClientRect();
